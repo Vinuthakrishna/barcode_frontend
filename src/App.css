@@ -1,0 +1,83 @@
+/* App.css */
+
+/* Center everything */
+.container {
+    text-align: center;
+    margin-top: 50px;
+    padding: 0 15px;
+  }
+  
+  /* Input */
+  .scan-input {
+    padding: 10px;
+    width: 300px;
+    max-width: 90%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  /* Buttons */
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .button.orange {
+    background-color: orange;
+  }
+  
+  .button.red {
+    background-color: red;
+  }
+  
+  .button.green {
+    background-color: green;
+  }
+  
+  /* Scanned Students Table */
+  .table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+  }
+  
+  table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 600px;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 600px) {
+    .scan-input {
+      width: 95%;
+    }
+  
+    .button {
+      width: 100%;
+      margin: 8px 0;
+    }
+  
+    table {
+      font-size: 14px;
+    }
+  }
+  
